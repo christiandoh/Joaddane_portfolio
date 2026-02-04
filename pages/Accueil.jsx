@@ -40,7 +40,7 @@ const Accueil = () => {
                 }`}
               >
                 <img
-                  src="/joaddane.png"
+                  src="joaddane.png"
                   alt="KOUAKOU AKOUA ANGE JOADDANE"
                   className="w-full h-full object-cover object-top"
                   onError={(e) => {
