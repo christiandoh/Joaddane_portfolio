@@ -20,7 +20,7 @@ const Accueil = () => {
               }`}>
                 <span className="text-sm font-medium">Cadrage & Montage vidéo</span>
               </div>
-              <h2 className={`text-5xl font-bold mb-4 ${darkMode ? 'text-white' : 'text-slate-900'}`}>
+              <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight ${darkMode ? 'text-white' : 'text-slate-900'}`}>
                 KOUAKOU AKOUA<br />ANGE JOADDANE
               </h2>
               <p className={`text-lg leading-relaxed mb-6 ${darkMode ? 'text-white/80' : 'text-slate-700'}`}>
@@ -58,48 +58,48 @@ const Accueil = () => {
                 </div>
               </div>
               <div className="space-y-4 w-full">
-              <div className={`backdrop-blur-xl rounded-2xl border p-6 transition-all duration-300 ${
+              <div className={`backdrop-blur-xl rounded-2xl border p-4 sm:p-6 transition-all duration-300 ${
                 darkMode 
                   ? 'bg-white/5 border-white/10 hover:bg-white/10' 
                   : 'bg-white/40 border-white/40 hover:bg-white/60'
               }`}>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 flex-wrap sm:flex-nowrap">
                   <div className={`p-3 rounded-xl ${darkMode ? 'bg-purple-500/20' : 'bg-purple-100'}`}>
                     <Mail className={darkMode ? 'text-purple-300' : 'text-purple-600'} size={24} />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className={`text-sm ${darkMode ? 'text-white/60' : 'text-slate-500'}`}>Email</p>
-                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'}`}>akouajoaddane@gmail.com</p>
+                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'} break-words`}>akouajoaddane@gmail.com</p>
                   </div>
                 </div>
               </div>
-              <div className={`backdrop-blur-xl rounded-2xl border p-6 transition-all duration-300 ${
+              <div className={`backdrop-blur-xl rounded-2xl border p-4 sm:p-6 transition-all duration-300 ${
                 darkMode 
                   ? 'bg-white/5 border-white/10 hover:bg-white/10' 
                   : 'bg-white/40 border-white/40 hover:bg-white/60'
               }`}>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 flex-wrap sm:flex-nowrap">
                   <div className={`p-3 rounded-xl ${darkMode ? 'bg-blue-500/20' : 'bg-blue-100'}`}>
                     <Phone className={darkMode ? 'text-blue-300' : 'text-blue-600'} size={24} />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className={`text-sm ${darkMode ? 'text-white/60' : 'text-slate-500'}`}>Téléphone</p>
-                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'}`}>+225 07-19-12-56-23</p>
+                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'} break-words`}>+225 07-19-12-56-23</p>
                   </div>
                 </div>
               </div>
-              <div className={`backdrop-blur-xl rounded-2xl border p-6 transition-all duration-300 ${
+              <div className={`backdrop-blur-xl rounded-2xl border p-4 sm:p-6 transition-all duration-300 ${
                 darkMode 
                   ? 'bg-white/5 border-white/10 hover:bg-white/10' 
                   : 'bg-white/40 border-white/40 hover:bg-white/60'
               }`}>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 flex-wrap sm:flex-nowrap">
                   <div className={`p-3 rounded-xl ${darkMode ? 'bg-pink-500/20' : 'bg-pink-100'}`}>
                     <MapPin className={darkMode ? 'text-pink-300' : 'text-pink-600'} size={24} />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className={`text-sm ${darkMode ? 'text-white/60' : 'text-slate-500'}`}>Localisation</p>
-                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'}`}>Abidjan, Côte d'Ivoire</p>
+                    <p className={`font-medium ${darkMode ? 'text-white' : 'text-slate-900'} break-words`}>Abidjan, Côte d'Ivoire</p>
                   </div>
                 </div>
               </div>
